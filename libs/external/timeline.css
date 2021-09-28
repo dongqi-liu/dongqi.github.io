@@ -17,13 +17,13 @@
   width: 6px;
   height: 100%;
   margin-left: -3px;
-  background: rgb(77,79,83);
-  background: -moz-linear-gradient(top, rgba(77,79,83,0) 0%, rgb(77,79,83) 8%, rgb(77,79,83) 92%, rgba(77,79,83,0) 100%);
+  background: rgb(80,80,80);
+  background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
-  background: -webkit-linear-gradient(top, rgba(77,79,83,0) 0%, rgb(77,79,83) 8%, rgb(77,79,83) 92%, rgba(77,79,83,0) 100%);
-  background: -o-linear-gradient(top, rgba(77,79,83,0) 0%, rgb(77,79,83) 8%, rgb(77,79,83) 92%, rgba(77,79,83,0) 100%);
-  background: -ms-linear-gradient(top, rgba(77,79,83,0) 0%, rgb(77,79,83) 8%, rgb(77,79,83) 92%, rgba(77,79,83,0) 100%);
-  background: linear-gradient(to bottom, rgba(77,79,83,0) 0%, rgb(77,79,83) 8%, rgb(77,79,83) 92%, rgba(77,79,83,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+  background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
   
   z-index: 5;
 }
@@ -95,7 +95,7 @@
   margin-top: -10px;
   background: #fff;
   border-radius: 10px;
-  border: 4px solid rgb(140,21,21); 
+  border: 4px solid rgb(153, 11, 60);
   z-index: 10;
 }
 
@@ -136,7 +136,7 @@
   
   line-height: 1em;
   font-size: 0.66666em;
-  color: rgb(140,21,21);
+  color: rgb(153, 11, 60);
   vertical-align: middle;
 }
 
@@ -245,7 +245,7 @@
     margin-left: -9px;
     background: #fff;
     border-radius: 10px;
-    border: 4px solid rgb(255,80,80);
+    border: 4px solid rgb(153, 11, 60);
     z-index: 10;
   }
 
