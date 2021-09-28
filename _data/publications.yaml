@@ -1,0 +1,39 @@
+papers:
+
+  - title: "Aspect-Level Deep Collaborative Filtering via Heterogeneous Information Networks."
+    authors: "<b>Xiaotian Han</b>, Chuan Shi, Senzhang Wang, S Yu Philip, Li Song"
+    venue: "IJCAI, 2018"
+    paper_pdf: "https://www.ijcai.org/proceedings/2018/0471.pdf"
+    code: "https://github.com/ahxt/NeuACF"
+    # blogpost: "/projects/2019_ScienceAdvances"
+    # pressrel: "/projects/2019_ScienceAdvancesPress"
+    # video: "/assets/projects/2019_SA/StoryBoard.m4v"
+    # data: "projects/2019_MLDataset"
+    # notebook: "https://Helioml.github.io/HelioML/04/1/notebook"
+    selected: y   
+
+  - title: "Representation learning with depth and breadth for recommendation using multi-view data."
+    authors: "<b>Xiaotian Han</b>, Chuan Shi, Lei Zheng, S Yu Philip, Jianxin Li, Yuanfu Lu"
+    venue: "APWeb-WAIM, 2018"
+    paper_pdf: "http://www.shichuan.org/doc/57.pdf"
+    # code: "https://github.com/ahxt/NeuACF"
+    # blogpost: "/projects/2019_ScienceAdvances"
+    # pressrel: "/projects/2019_ScienceAdvancesPress"
+    # video: "/assets/projects/2019_SA/StoryBoard.m4v"
+    # data: "projects/2019_MLDataset"
+    # notebook: "https://Helioml.github.io/HelioML/04/1/notebook"
+    selected: y   
+
+  - title: "Anomalous Trajectory Detection Using Recurrent Neural Network."
+    authors: "Li Song, Ruijia Wang, Ding Xiao, <b>Xiaotian Han</b>, Yanan Cai, Chuan Shi"
+    venue: "ADMA, 2018"
+    paper_pdf: "http://shichuan.org/doc/60.pdf"
+    # code: "https://github.com/ahxt/NeuACF"
+    # blogpost: "/projects/2019_ScienceAdvances"
+    # pressrel: "/projects/2019_ScienceAdvancesPress"
+    # video: "/assets/projects/2019_SA/StoryBoard.m4v"
+    # data: "projects/2019_MLDataset"
+    # notebook: "https://Helioml.github.io/HelioML/04/1/notebook"
+    selected: y   
+
+    

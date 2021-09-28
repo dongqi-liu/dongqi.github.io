@@ -1,0 +1,8 @@
+projects:
+
+  - title: "DeepEM"
+    subtitle: "Deep Learning approach to DEM Inversion"
+    thumbnail: "assets/projects/2018_FDL/171.gif"
+    #url: "projects/2016_network-ab-testing.html"
+    selected: y
+    

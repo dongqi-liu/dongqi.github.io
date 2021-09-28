@@ -1,0 +1,20 @@
+educations:
+
+- place: "Texas A&M University"
+  time: "Aug. 2019 - now"
+  title: "Ph.D. Student"
+  subtitle: "Computer Science"
+  category: "school"
+
+- place: "Beijing Univ. of Posts and Telecommunications"
+  time: "Sept. 2016 - Jun. 2019"
+  title: "Master Degree"
+  subtitle: "Computer Science"
+  category: "school"
+
+- place: "Shandong University"
+  time: "Sept. 2011 - Jun. 2015"
+  title: "Bacheler Degree"
+  subtitle: "Communication Engineering"
+  category: "school"
+
