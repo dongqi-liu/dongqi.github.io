@@ -1,7 +1,7 @@
 projects:
 
-  - title: "Expedia hotel ranking recommendation system"
-    # subtitle: "Randomizing Over Randomized Experiments"
-    thumbnail: "assets/projects/DMT/Data_Mining _Techniques.png"
-    # url: "projects/2016_network-ab-testing.html"
-    selected: y
+  # - title: "Expedia hotel ranking recommendation system"
+  #   # subtitle: "Randomizing Over Randomized Experiments"
+  #   thumbnail: "assets/projects/DMT/Data_Mining _Techniques.png"
+  #   # url: "projects/2016_network-ab-testing.html"
+  #   selected: y
