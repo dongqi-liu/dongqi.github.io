@@ -1,9 +1,9 @@
 papers:
 
-  # - title: "Privacy Data Protection based on Honey Encryption"
-  #   authors: "GUO Yajun, <b>PU Dongqi<sup>‡</sup></b>"
-  #   venue: "NETINFO SECURITY, 2019 Vol. 19 (12): 38-46"
-  #   selected: y
+  - title: "Passing Parser Uncertainty to the Transformer"
+    authors: "<b>Dongqi Pu</b>, Khalil Sima'an"
+    venue: "To be published"
+    selected: y
 
   # - title: "The Structure of Toxic Conversations on Twitter"
   #   authors: "<b>Martin Saveski</b>, Brandon Roy, Deb Roy"

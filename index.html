@@ -9,13 +9,13 @@ title: Home
         Hello, welcome to visit my site! 👋
     </p>
     <p>
-        I am currently a 2-nd year M.Sc. student in the Department of Computer Science at <a href="https://www.uva.nl/en" target="_blank"> University of Amsterdam </a> and <a href="https://vu.nl/en" target="_blank"> Vrije University Amsterdam </a>. My research interests lie primarily in the area of <code class="language-plaintext highlighter-rouge"> AI X Linguistics</code>, such as Natural Language Processing, Understanding and Generation.
+        I am currently a final year M.Sc. student in the Department of Computer Science at <a href="https://www.uva.nl/en" target="_blank"> University of Amsterdam </a> and <a href="https://vu.nl/en" target="_blank"> Vrije University Amsterdam </a>. My research interests lie primarily in the area of <code class="language-plaintext highlighter-rouge"> AI ∩ Linguistics</code>, such as Natural Language Processing, Understanding and Generation.
     </p>
     <p>
-        Currently, I am completing my master thesis under the supervision of <a href="https://staff.fnwi.uva.nl/k.simaan/" target="_blank"> Prof. Khalil Sima'an</a> at the <a href="https://www.illc.uva.nl/" target="_blank">Institute for Logic, Language and Computation</a>, <a href="https://www.uva.nl/en" target="_blank">University of Amsterdam</a>. The research topic of my master thesis is how to incorporate dependency forest structure to help the (self-) attention mechanism in the Transformer-based model to better pay attention to the syntax relationship between the tokens of the input sentences in the <a href="https://en.wikipedia.org/wiki/Neural_machine_translation" target="_blank">Neural Machine Translation (NMT)</a> tasks.
+        I just finished my master thesis under the supervision of <a href="https://staff.fnwi.uva.nl/k.simaan/" target="_blank"> Prof. Khalil Sima'an</a> at the <a href="https://www.illc.uva.nl/" target="_blank">Institute for Logic, Language and Computation</a>, <a href="https://www.uva.nl/en" target="_blank">University of Amsterdam</a>. The research topic of my master thesis is how to incorporate dependency probability distributions to help (self-) attention mechanism in Transformer-based model to better pay attention to the syntax relationship between the tokens of input sentences in the <a href="https://en.wikipedia.org/wiki/Neural_machine_translation" target="_blank">Neural Machine Translation (NMT)</a> tasks.
     </p>
     <p>
-        In my free time, I enjoy doing sports (mostly jogging 🏃 and table tennis 🏓 ), traveling, and cooking 🥢  with friends and family. I am very good at cooking Chinese food. Also, I used to be a writer, I like to write poems, novels and lyrics for songs, feel free to click <a href="https://music.163.com/#/song?id=506719925" target="_blank">here</a> to listen to the songs I wrote.
+        In my free time, I enjoy doing sports (mostly jogging 🏃 and table tennis 🏓 ), traveling, and cooking 🥢. Yes, I am very good at cooking Chinese food. Also, I used to be a writer, I like to write poems, novels and lyrics for songs, feel free to click <a href="https://music.163.com/#/song?id=506719925" target="_blank">here</a> to listen to the songs I wrote.
     </p>
 </div>
 
@@ -54,18 +54,23 @@ title: Home
 <div class="docs-section" id="experience">
     <h4>Experience</h4>
           <div class="paper">
-            <p class="title"><b>University of Amsterdam <b style="float:right;">Jul. 2021 - Present </b></b></p>  
-            <p>Master Thesis Student</p>
+            <p class="title"><b>University of Amsterdam <b style="float:right;">Expected</b></b></p>  
+            <p>Teaching Assistant at the <a href="https://studiegids.uva.nl/xmlpages/page/2021-2022-en/search-course/course/89424" target="_blank">Natural Language Processing 2</a></p>
+          </div>
+
+          <div class="paper">
+            <p class="title"><b>University of Amsterdam <b style="float:right;">Jul. 2021 - Mar. 2022 </b></b></p>  
+            <p>Master Thesis Student at the Institute for Logic, Language and Computation</p>
           </div>
         
           <div class="paper">
             <p class="title"><b>Volkswagen Group China <b style="float:right;">Jan. 2021 - Aug. 2021 </b></b></p> 
-            <p>NLP Intern, R&D and AI Department</p>
+            <p>NLP Intern at the R&D and AI Department</p>
           </div> 
 
           <div class="paper">
             <p class="title"><b>Vrije Universiteit Amsterdam <b style="float:right;">Jun. 2021 - Jul. 2021 </b></b></p> 
-            <p>Teaching Assistant</p>
+            <p>Teaching Assistant at the <a href="https://studiegids.vu.nl/en/Master/2020-2021/artificial-intelligence/XM_40012" target="_blank">Machine Learning for the Quantified Self</a> </p>
           </div> 
   </div>
 
@@ -155,76 +160,76 @@ title: Home
 </div>
 
  <!-- ========== PROJECTS ==========  -->
-<div class="docs-section" id="projects">
-  <h4>Projects</h4>
+<!--<div class="docs-section" id="projects">-->
+<!--  <h4>Projects</h4>-->
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
+<!--  <ul class="tab-nav">-->
+<!--    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>-->
+<!--    <li><div class="button" data-ref="#projects-all">All</div></li>-->
+<!--  </ul>-->
 
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
+<!--  <div class="tab-content">-->
+<!--    <div class="tab-pane active" id="projects-selected">-->
+<!--      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}-->
+<!--      {% for project in selected_projects %}-->
+<!--        {% assign index_modulo = forloop.index0 | modulo:3 %}-->
+<!--        {% if index_modulo == 0 %}-->
+<!--          <div class="row">-->
+<!--        {% endif %}-->
 
-          <div class="four columns">
-            <div class="project-container">
+<!--          <div class="four columns">-->
+<!--            <div class="project-container">-->
 
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
+<!--                <div class="project-image-container">-->
+<!--                  <a href="{{ project.url }}">-->
+<!--                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />-->
+<!--                  </a>-->
+<!--                </div>-->
 
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
+<!--                <div class="project-caption">-->
+<!--                  <b>{{ project.title }}</b> <br/>-->
+<!--                  {{ project.subtitle }}-->
+<!--                </div>-->
 
-            </div>
-          </div>
+<!--            </div>-->
+<!--          </div>-->
 
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
+<!--        {% if index_modulo == 2 %}-->
+<!--          </div>-->
+<!--        {% endif %}-->
+<!--      {% endfor %}-->
+<!--    </div>-->
 
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
+<!--    <div class="tab-pane" id="projects-all">-->
+<!--      {% for project in site.data.projects.projects %}-->
+<!--        {% assign index_modulo = forloop.index0 | modulo:3 %}-->
+<!--        {% if index_modulo == 0 %}-->
+<!--          <div class="row">-->
+<!--        {% endif %}-->
 
-          <div class="four columns">
-            <div class="project-container">
+<!--          <div class="four columns">-->
+<!--            <div class="project-container">-->
 
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
+<!--                <div class="project-image-container">-->
+<!--                  <a href="{{ project.url }}">-->
+<!--                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />-->
+<!--                  </a>-->
+<!--                </div>-->
 
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
+<!--                <div class="project-caption">-->
+<!--                  <b>{{ project.title }}</b> <br/>-->
+<!--                  {{ project.subtitle }}-->
+<!--                </div>-->
 
-            </div>
-          </div>
+<!--            </div>-->
+<!--          </div>-->
 
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
+<!--        {% if index_modulo == 2 %}-->
+<!--          </div>-->
+<!--        {% endif %}-->
+<!--      {% endfor %}-->
+<!--    </div>-->
+<!--  </div>-->
 
 </div>
 
