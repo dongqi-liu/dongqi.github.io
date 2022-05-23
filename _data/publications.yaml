@@ -2,8 +2,8 @@ papers:
 
   - title: "Passing Parser Uncertainty to the Transformer"
     authors: "<b>Dongqi Pu</b>, Khalil Sima'an"
-    venue: "The 23rd Annual Conference of the European Association for Machine Translation"
-#     paper_pdf: "/assets/publications/2021_dtox/paper.pdf"
+    venue: "Proceedings of the 23rd Annual Conference of the European Association for Machine Translation"
+    paper_pdf: "/assets/publications/EAMT2022/paper.pdf"
     slides: "/assets/publications/EAMT2022/slides.pdf"
     selected: y
 
