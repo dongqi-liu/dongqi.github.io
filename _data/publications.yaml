@@ -2,7 +2,7 @@ papers:
 
   - title: "Passing Parser Uncertainty to the Transformer"
     authors: "<b>Dongqi Pu</b>, Khalil Sima'an"
-    venue: "To be published"
+    venue: "The 23rd Annual Conference of the European Association for Machine Translation"
     selected: y
 
   # - title: "The Structure of Toxic Conversations on Twitter"
