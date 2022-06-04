@@ -1,6 +1,6 @@
 papers:
 
-  - title: "Passing Parser Uncertainty to the Transformer"
+  - title: "Passing Parser Uncertainty to the Transformer: Labeled Dependency Distributions for Neural Machine Translation"
     authors: "<b>Dongqi Pu</b>, Khalil Sima'an"
     venue: "Proceedings of the 23rd Annual Conference of the European Association for Machine Translation"
     paper_pdf: "/assets/publications/EAMT2022/paper.pdf"
